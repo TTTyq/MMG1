@@ -1,0 +1,3 @@
+repository "AI Dialogue/TestTest@20067411433147@cloud"
+  path "/"
+    smartbranch "/main/Yiqing"

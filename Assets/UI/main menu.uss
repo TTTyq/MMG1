@@ -1,0 +1,37 @@
+.panel {
+    background-color: rgba(0, 0, 0, 0.86);
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    color: rgb(27, 27, 27);
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    align-items: auto;
+    position: absolute;
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.button1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 0;
+    font-size: 40px;
+    align-self: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    -unity-text-align: upper-left;
+    width: 250px;
+    -unity-background-scale-mode: stretch-to-fill;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+}
